@@ -11,3 +11,7 @@ FastFacts solves these dilemmas by providing an innovative, interactive learning
 # Concept
 ## The Idea
 FastFacts will utilize Makey Makey to create a fun, interactive classroom quiz game. The teacher will set up the room by displaying the MakeyMakey application on the screen, and placing several items around the room that will serve as answers to the quiz they have constructed. Students are then divided into two or more teams, with a baton/button in the center of the room for each team.  
+
+#The Plan
+
+#Tags
