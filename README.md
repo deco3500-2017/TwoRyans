@@ -54,4 +54,4 @@ The intended audience will be middle school students from grades 4-7. Students w
     - larger sample size
 
 # Tags
-#FastFacts, #education, #primaryschool, #interaction, #physicaldesign, #learning tool, #active learning, #tactile
+#FastFacts, #education, #primaryschool, #interaction, #physicaldesign, #learningtool, #activelearning, #tactile
