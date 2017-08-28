@@ -14,4 +14,38 @@ FastFacts will utilize Makey Makey to create a fun, interactive classroom quiz g
 
 #The Plan
 
+##Research
+1. Identify primary users
+    - interview
+    - focus group
+2. Create user personas
+3. Establish context of product usage
+    - physical
+    - technological
+4. Establish tools required for next stage
+    - programs
+    - physical protoyping material
+
+##Protoyping
+1. Determine system structure
+    - task flow
+    - UI
+    - Style guide
+    - architecture
+2.Prototype Development
+    - digital wireframes
+    - paper protoyping
+    - low fidelity
+2. User Testing
+    - Questionnaire
+    - Qualitative data
+
+##Implementation
+1. Front End
+2. Back End
+3. User testing
+    - high fidelity
+    - larger sample size
+
 #Tags
+FastFacts, education, primary school, interaction, physical design, learning tool, active learning, tactile
