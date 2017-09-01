@@ -2,7 +2,9 @@
 - [TwoRyans](#tworyans)
 - [Introduction](#introduction)
 - [Concept](#concept)
-  - [The Idea](#the-idea)
+  - [MVP](#mvp)
+    - [Category Mode](#category-mode)
+    - [Story Mode](#story-mode)
   - [Innovation](#innovation)
   - [The Audience](the-audience)
 - [Team](#team)
@@ -18,24 +20,48 @@
 - [Tags](#tags)
 
 # TwoRyans
-This is the repository for team TwoRyans for DECO3500, 2017. It will house the code for their project, FastFacts, a versatile, interactive learning tool that can be used by teachers to get students active, while also quizzing them on class content.
+This is the repository for team TwoRyans for DECO3500, 2017. It will house the code for their project, ZORE, a versatile, interactive learning tool that can be used by teachers to encourage collaborative learning in students.
 
 # Introduction  
-FastFacts aims to solve two dilemmas often faced by teachers in modern day classrooms. Firstly, teachers often find it difficult to get students to engaged with the content they're presenting. Interacting with presented material can often help tactile, visual or aural learners retain information better, which can be the difference between cementing and forgetting a concept.
+ZORE aims to solve two dilemmas often faced by teachers in modern day classrooms. Firstly, teachers find it difficult to get students to engaged with the content they're presenting. Interacting with presented material can often help tactile, visual or aural learners retain information better, which can be the difference between cementing and forgetting a concept.
 
-The second dilemma is that teachers often find it difficult to keep students active while they are at school. With the obesity epidemic still looming over Australia, it is often a priority for teachers to make sure students are getting enough excersise during school hours.
+Secondly, teachers often try to include elements of collaboration in their classroom activities. Getting students to work together and engage in collective learning can require an immense level of supervision and preparation for teachers. However, in recent times it has become more or less mandantory for teachers to include these types of activities in their lesson plans because of the huge benefits that have been found to stem from collaborative learning.
 
-FastFacts solves these dilemmas by providing an innovative, interactive learning tool for teachers that will get students up and moving in the classroom, while it the same time cementing their knowledge on facts from any number of academic disciplines.
+ZORE solves these dilemmas by providing an innovative, interactive learning tool for teachers that will get students collaboratively colving problems together in the classroom, while it the same time cementing their knowledge on facts from any number of academic disciplines.
 
 # Concept
-## The Idea
-FastFacts will utilize Makey Makey to create a fun, interactive classroom quiz game. The teacher will set up the room by displaying the MakeyMakey application on the screen, and placing several items around the room that will serve as answers to the quiz they have constructed. Students are then divided into two or more teams, with a baton/button in the center of the room for each team. Questions are then flashed up onto the board, with the first student managing to run towards and touch the correct answer gaining points for their team.
+ZORE will utilise a large, multi-touch, desk-mounted interactive screens (like the one currently found in 78-207 at UQ) to create a fun, interactive classroom activity.
+
+## MVP
+ZORE has two modes to provide maximum versatility to the teacher. A categories mode, in which students are required to place a number of cards into the correct answer category and a story mode, where students assemble a story from different cards based on knowledge gained and class discussion. Both modes include progress tracking and analytics features that are saved for the teacher to review after the lesson.
+
+### Category Mode
+For preparation, the teacher will divise 2-9 broad categories with potentially overlapping attributes belonging to each category. They will then come up with any number of different cards that each belong to a specific category. Cards may contain any combination of text, images and videos.
+
+In class, students are divided into two competing teams (one for each screen). The cards are initially jumbled between the categories on the screen. The students are required to come to a consensus about which category they believe each card belongs to and move it to the corresponsing section of the screen as seen in the diagram. When they believe every card on the screen has been categorized correctly, they press a (virtual) button to check their answers. Points are awarded based on the number of correct answers and time taken to complete the task. The team with the highest number of points wins.
+
+![Category Diagram](http://i.imgur.com/k0QH3VH.jpg "Category Mode")
+
+### Story Mode
+Students sitting at the interactive table are presented with a scattered array of interactive/electronic cards that they can choose to flip around and manipulate (drag around the table skew, pinch-to-zoom, etc). To discuss how this will work in practice (and to provide context of use), an example will be used of historical events (‘stories’ that took place in the past), for a teacher giving a history lesson. 
+
+Each card on the table (as shown in the diagram below) acts as a part of a story, or a ‘clue’. Once a card has been flipped over, a section of a story is revealed, for the students to act on and discuss. The goal for the students is to collaborate through their gaining of knowledge from each card, and to combine these together by dragging the relevant cards into the centre circle. The outcome of this is that the centre circle either ‘approves’ or ‘rejects’ the combination of cards (by flashing green or red respectively). If the correct combination of cards (sections of a story) have been submitted, the centre circle displays an image or video telling the full story to the students. This type of implicit learning is the result of the students having interactively and collectively discussed their individual parts, to come up with something together as a whole.
+
+![Story Diagram](http://i.imgur.com/7fqdtgN.jpg "Story Mode")
 
 ## Innovation
-While there are other applications available that allow teachers to customize revision tests, and applications that help students through visual learning, FastFacts will be the first application that does both at the same time, as well as the first application to incorporate physical artifacts as answers to classroom questions.
+One product that is similar to ZORE is [ActivTable](https://www.prometheanworld.com/au/products/interactive-table/). Designed and created by Promethean World, it uses comparable ideas to demonstrate the ways in which children learn. Accommodating for up to six students at a time, they can collaborate using educational activities, applications, and tools. The ActivTable is multi-touch, and incorporates web browsers and other resources to enhance learning experiences of children. ZORE will differ from this product by providing a considerably simpler, easier to use interface at what is guarunteed to be at a much lower final pricepoint.
+![ActivTable](http://i.imgur.com/qAp6cqi.png)
+
+Another comparable product comes from Smart Tech’s [SMART Board](https://home.smarttech.com/). This tool allows teachers to present information in a fun, interactive way that the students can enjoy. The 7000 series SMART Board incorporates pen and eraser tools to limit the adjustment for a teacher transferring from more traditional white (or black) boards. Also featuring 16 simultaneous touch points, this vertical system allows for collaboration of 4-8 students. The main issue regarding the SMART Board system is that it is oriented vertically, resulting in a potential inaccessibility for younger children, as well as a less intuitive way of processing information (as children generally work on horizontal tables).
+![SMART Table](http://i.imgur.com/4NVe8VT.jpg)
+
+
 
 ## The Audience
-The intended audience will be middle school students from grades 4-7. Students who are visual or tactile learning will likely benefit the most from using FastFacts. Outside of these parameters, the application is designed to have a large number of use cases, so the audience may change depending on the specific application of game by a given teacher. The target audience should also have already been primed by the teacher on the chosen topic so that they are likely to get at least some of the questions correct.
+As ZORE is a teaching tool, the primary audience will be middle school teachers. Teachers span a broad (but exclusively adult) age group, with an extremely varied level of IT familiarity and free time. Because of this, a key design goal will be that the preparation time for ZORE is no more than what is required for a normal lesson of similar complexity. The interface for creating the activity must be simple to use, with clear instructions available for the creation of multimedia answer cards. Example quizzes will be provided as standard to give teachers default configurations and entice them into using the application. The tracking features of the application will hopefully also convince teachers that ZORE is a worthwhile learning tool.
+
+The secondary audience will be middle school students from grades 4-7. This age group was chosen because they will likely have developed enough social skills to navigate through the complex group task presented to them by ZORE, while still dealing with concepts that are simple enough to be turned into ZORE activities. It is anticipated that the simple touch interaction of the screens will be appropraite for children in this age group. Students who are visual or tactile learners will likely get the most benefit out of ZORE.
 
 
 # Team
@@ -117,4 +143,4 @@ All files will be shared in a designated Google Drive folder and will provide co
     - larger sample size
 
 # Tags
-#FastFacts, #education, #primaryschool, #interaction, #physicaldesign, #learningtool, #activelearning, #tactile
+#ZORE, #education, #primaryschool, #interaction, #physicaldesign, #learningtool, #activelearning, #tactile
