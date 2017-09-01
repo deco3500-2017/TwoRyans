@@ -27,10 +27,10 @@ ZORE aims to solve two dilemmas often faced by teachers in modern day classrooms
 
 Secondly, teachers often try to include elements of collaboration in their classroom activities. Getting students to work together and engage in collective learning can require an immense level of supervision and preparation for teachers. However, in recent times it has become more or less mandantory for teachers to include these types of activities in their lesson plans because of the huge benefits that have been found to stem from collaborative learning.
 
-ZORE solves these dilemmas by providing an innovative, interactive learning tool for teachers that will get students collaboratively colving problems together in the classroom, while it the same time cementing their knowledge on facts from any number of academic disciplines.
+ZORE solves these dilemmas by providing an innovative, interactive learning tool for teachers that will get students collaboratively solving problems together in the classroom, while it the same time cementing their knowledge on facts from any number of academic disciplines.
 
 # Concept
-ZORE will utilise a large, multi-touch, desk-mounted interactive screens (like the one currently found in 78-207 at UQ) to create a fun, interactive classroom activity.
+ZORE will utilise a large, multi-touch, desk-mounted interactive screen (like the one currently found in 78-207 at UQ) to create a fun, interactive classroom activity.
 
 ## MVP
 ZORE has two modes to provide maximum versatility to the teacher. A categories mode, in which students are required to place a number of cards into the correct answer category and a story mode, where students assemble a story from different cards based on knowledge gained and class discussion. Both modes include progress tracking and analytics features that are saved for the teacher to review after the lesson.
@@ -59,7 +59,7 @@ Another comparable product comes from Smart Tech’s [SMART Board](https://home.
 
 
 ## The Audience
-As ZORE is a teaching tool, the primary audience will be middle school teachers. Teachers span a broad (but exclusively adult) age group, with an extremely varied level of IT familiarity and free time. Because of this, a key design goal will be that the preparation time for ZORE is no more than what is required for a normal lesson of similar complexity. The interface for creating the activity must be simple to use, with clear instructions available for the creation of multimedia answer cards. Example quizzes will be provided as standard to give teachers default configurations and entice them into using the application. The tracking features of the application will hopefully also convince teachers that ZORE is a worthwhile learning tool.
+As ZORE is a teaching tool, the primary audience will be middle school teachers. Teachers span a broad (but exclusively adult) age group, with an extremely varied level of IT familiarity and free time. Because of this, a key design goal will be that the preparation time for ZORE is no more than what is required for a normal lesson of similar complexity. The interface for creating an activity must be simple to use, with clear instructions available for the creation of multimedia answer cards. Example quizzes will be provided as standard to give teachers default configurations and entice them into using the application. The tracking features of the application will hopefully also convince teachers that ZORE is a worthwhile learning tool.
 
 The secondary audience will be middle school students from grades 4-7. This age group was chosen because they will likely have developed enough social skills to navigate through the complex group task presented to them by ZORE, while still dealing with concepts that are simple enough to be turned into ZORE activities. It is anticipated that the simple touch interaction of the screens will be appropraite for children in this age group. Students who are visual or tactile learners will likely get the most benefit out of ZORE.
 
