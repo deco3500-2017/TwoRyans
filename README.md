@@ -108,6 +108,7 @@ All group members agree to respond to communications from other group members in
 All files will be shared in a designated Google Drive folder and will provide constant access for all members at any given time. File-naming conventions will follow this structure: DocumentType_OwnerInitials. Including the Team Name has been deemed unnecessary as it is contained in the Google Drive Folder itself. 
 
 # The Plan
+One of our group members (Martinus) has stated that we may be able to perform user testing on a Sunday School that he is a part of. If we are able to receive proper informed consent, this will be an extremely valuable tool for testing our application. We are also in the process of reaching out to a number of teachers to gain insight into how much preparation/training would be appropriate to implement a lesson plan with ZORE. User research will be conducted before the creation of a prototype, and user testing will be conducted on the prototype itself once it has been implemented.
 
 ## Research
 1. Identify primary users
@@ -127,17 +128,17 @@ All files will be shared in a designated Google Drive folder and will provide co
     - UI
     - Style guide
     - architecture
-2.Prototype Development
+2. Prototype Development
     - digital wireframes
     - paper protoyping
     - low fidelity
-2. User Testing
+3. User Testing
     - Questionnaire
     - Qualitative data
 
 ## Implementation
-1. Front End
-2. Back End
+1. Preparation Interface
+2. Application Interface
 3. User testing
     - high fidelity
     - larger sample size
