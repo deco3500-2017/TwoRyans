@@ -1,0 +1,201 @@
+{"categories":
+	[
+		{
+			"cat1":
+			{
+				"title": "NOUNS",
+				"cards":
+				[	
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"APPLE"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"LIFE"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"YEAR"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"STUDENT"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"COUNTRY"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"NUMBER"
+						}
+					}
+				]
+			}
+		},
+		{
+			"cat2":
+			{
+				"title": "VERBS",
+				"cards":
+				[	
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"GIVE"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"KICK"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"FIND"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"RUN"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"ASK"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"TAKE"
+						}
+					}
+				]
+			}
+		},
+		{
+			"cat3":
+			{
+				"title": "ADJECTIVE",
+				"cards":
+				[	
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"HISTORICAL"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"MENTAL"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"MEDICAL"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"STRONG"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"EXPENSIVE"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"INTELLIGENT"
+						}
+					}
+				]
+			}
+		},
+		{
+			"cat4":
+			{
+				"title": "PRONOUNS",
+				"cards":
+				[	
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"HE"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"RYAN"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"LONDON"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"THEY"
+						}
+					},
+					{
+					"type": "text",
+					"card": 
+						{
+							"text":"MYSELF"
+						}
+					}
+				]
+			}
+		}
+	]
+}
