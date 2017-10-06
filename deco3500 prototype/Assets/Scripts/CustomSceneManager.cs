@@ -19,4 +19,14 @@ public class CustomSceneManager : MonoBehaviour {
     {
         SceneManager.LoadScene("Act1", LoadSceneMode.Single);
     }
+
+    public void LoadCreate()
+    {
+        SceneManager.LoadScene("Create", LoadSceneMode.Single);
+    }
+
+    public void LoadStartUp()
+    {
+        SceneManager.LoadScene("startUp", LoadSceneMode.Single);
+    }
 }

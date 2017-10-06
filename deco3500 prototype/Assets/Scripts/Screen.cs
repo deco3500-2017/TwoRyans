@@ -15,21 +15,4 @@ public class Screen : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    private void OnTriggerEnter(Collider other)
-    {
-        var card = other.gameObject.GetComponent<Card>();
-
-        if (card != null)
-        {
-            if (this.category == card.category)
-            {
-                card.correct = true;
-            }
-            else
-            {
-                card.correct = false;
-            }
-        }
-    }
 }
