@@ -16,13 +16,20 @@ public class Screen : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         var card = other.gameObject.GetComponent<Card>();
 
-        if(card != null && this.category == card.category)
+        if (card != null)
         {
-            card.correct = true;
+            if (this.category == card.category)
+            {
+                card.correct = true;
+            }
+            else
+            {
+                card.correct = false;
+            }
         }
     }
 }

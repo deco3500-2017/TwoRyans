@@ -1,8 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class Card : MonoBehaviour
+public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler
 {
     public enum Category
     {
@@ -28,32 +31,28 @@ public class Card : MonoBehaviour
 
     public bool correct = false;
 
-    float x;
-    float y;
+    private Vector3 startPos;
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
+	void Start()
+	{
+		gameObject.GetComponentInChildren<Text> ().text = text;
+	}
 
     // Update is called once per frame
     void Update()
     {
-        x = Input.mousePosition.x;
-        y = Input.mousePosition.y;
 
-        //Debug.Log("X: " + x + "," + " Y: " + y);
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log(other.gameObject.name);
+        var mousePos = Input.mousePosition;
+        mousePos.z = 10f;
+        transform.position = Camera.main.ScreenToWorldPoint(mousePos);
     }
 
-    void OnMouseDrag()
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnMouseDrag");
-        transform.position = Camera.main.ScreenToWorldPoint(new Vector3(x, y, 1f));
+        startPos = transform.position;
     }
 }

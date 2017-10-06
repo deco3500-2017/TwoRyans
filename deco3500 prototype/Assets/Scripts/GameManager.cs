@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections;
-using System.IO;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
     public Color correct;
     public Color incorrect;
+    public GameObject gameCanvas;
+
+    private bool mouseDown = false;
+    private Vector3 startMousePos;
+    private Vector3 startPos;
 
 	// Use this for initialization
 	void Start ()
@@ -14,6 +16,7 @@ public class GameManager : MonoBehaviour {
         Debug.Log("Start");
 
         var package = (GameObject)Resources.Load("Grammar");
+        Instantiate(package, gameCanvas.transform);
         foreach(Transform card in package.transform)
         {
             Spawn(card);
@@ -27,21 +30,21 @@ public class GameManager : MonoBehaviour {
 
         foreach(var card in cards)
         {
-            card.GetComponent<SpriteRenderer>().color = card.correct ? correct : incorrect;
+            card.GetComponent<Image>().color = card.correct ? correct : incorrect;
         }
     }
 
     private void Spawn(Transform card)
     {
         var size = GameObject.Find("background").GetComponent<SpriteRenderer>();
-        var cardSize = ((GameObject)Resources.Load("Card")).GetComponent<SpriteRenderer>();
+        //var cardSize = ((GameObject)Resources.Load("Card")).GetComponent<SpriteRenderer>();
 
         var positionMax = Vector3.Scale(size.bounds.max, new Vector3(0.9f, 0.9f));
         var positionMin = Vector3.Scale(size.bounds.min, new Vector3(0.9f, 0.9f));
 
-        var position = new Vector3(UnityEngine.Random.Range(positionMin.x, positionMax.x),
-            UnityEngine.Random.Range(positionMin.y, positionMax.y));
+        var position = new Vector3(Random.Range(positionMin.x, positionMax.x),
+            Random.Range(positionMin.y, positionMax.y));
 
-        Instantiate(card, position, Quaternion.identity);
+        card.position = position;
     }
 }
