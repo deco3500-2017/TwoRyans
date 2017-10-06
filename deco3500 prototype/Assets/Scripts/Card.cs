@@ -44,6 +44,43 @@ public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.GetComponent<Card>() != null)
+        {
+            return;
+        }
+
+        SetCorrect(other, true);
+
+        Debug.Log("Entering: " + other.gameObject.name);
+    }
+
+    private void SetCorrect(Collider other, bool isCorrect)
+    {
+        var screen = other.gameObject.GetComponent<Screen>();
+
+        if (screen != null)
+        {
+            if (this.category == screen.category)
+            {
+                correct = isCorrect;
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.GetComponent<Card>() != null)
+        {
+            return;
+        }
+
+        SetCorrect(other, false);
+
+        Debug.Log("Exiting: " + other.gameObject.name);
+    }
+
     public void OnDrag(PointerEventData eventData)
     {
         var mousePos = Input.mousePosition;
