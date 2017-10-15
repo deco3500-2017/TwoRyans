@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
+using UnityEditor;
 using UnityEngine.UI;
 
 public class CreatePackage : MonoBehaviour {
@@ -77,12 +77,12 @@ public class CreatePackage : MonoBehaviour {
         CreateCard();
 
         //TODO: potentially change to Application.datapath
-        PrefabUtility.CreatePrefab("Assets/Resources/Package_" + packageName + ".prefab", package);
+        PrefabUtility.CreatePrefab("Assets/Resources/UserPackages/Package_" + packageName + ".prefab", package);
 
         gameObject.GetComponent<CustomSceneManager>().LoadStartUp();
     }
 
-    private void Next()
+    /*private void Next()
     {
         throw new NotImplementedException();
     }
@@ -90,5 +90,5 @@ public class CreatePackage : MonoBehaviour {
     private void Back()
     {
         throw new NotImplementedException();
-    }
+    }*/
 }

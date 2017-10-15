@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
@@ -15,7 +16,7 @@ public class GameManager : MonoBehaviour {
     {
         Debug.Log("Start");
 
-        var package = (GameObject)Resources.Load("Grammar");
+        var package = (GameObject)Resources.Load("UserPackages/Package_" + ApplicationModel.packageName);
         Instantiate(package, gameCanvas.transform);
         foreach(Transform card in package.transform)
         {
@@ -39,8 +40,8 @@ public class GameManager : MonoBehaviour {
         var size = GameObject.Find("background").GetComponent<SpriteRenderer>();
         //var cardSize = ((GameObject)Resources.Load("Card")).GetComponent<SpriteRenderer>();
 
-        var positionMax = Vector3.Scale(size.bounds.max, new Vector3(0.9f, 0.9f));
-        var positionMin = Vector3.Scale(size.bounds.min, new Vector3(0.9f, 0.9f));
+        var positionMax = Vector3.Scale(size.bounds.max, new Vector3(0.5f, 0.5f));
+        var positionMin = Vector3.Scale(size.bounds.min, new Vector3(0.5f, 0.5f));
 
         var position = new Vector3(Random.Range(positionMin.x, positionMax.x),
             Random.Range(positionMin.y, positionMax.y));

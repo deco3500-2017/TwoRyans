@@ -9,11 +9,6 @@ public class CustomSceneManager : MonoBehaviour {
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     public void LoadAct1()
     {
@@ -28,5 +23,10 @@ public class CustomSceneManager : MonoBehaviour {
     public void LoadStartUp()
     {
         SceneManager.LoadScene("startUp", LoadSceneMode.Single);
+    }
+
+    public void LoadLoad()
+    {
+        SceneManager.LoadScene("Load", LoadSceneMode.Single);
     }
 }
