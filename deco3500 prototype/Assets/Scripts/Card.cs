@@ -39,9 +39,28 @@ public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler
 	}
 
     // Update is called once per frame
-    void Update()
-    {
+    void FixedUpdate()
+    { 
+        if (Input.touchCount >= 2)
+        {
+            var touch = Input.GetTouch(0);
 
+            if(touch.phase == TouchPhase.Moved)
+            {
+                Ray ray = Camera.main.ScreenPointToRay(touch.position);
+                Debug.DrawRay(ray.origin, ray.direction);
+                RaycastHit hit;
+
+                if (Physics.Raycast(ray, out hit))
+                {
+                    Debug.Log(hit.transform.gameObject.name);
+                    if (hit.transform.gameObject.tag == "Card")
+                    {
+                        hit.transform.Rotate(0f, 0f, 0.1f*(touch.deltaPosition.x + touch.deltaPosition.y));
+                    }
+                }
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)

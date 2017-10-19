@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 54393769307997992}
   m_Layer: 5
   m_Name: Card(Clone) (10)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 54000875057769216}
   m_Layer: 5
   m_Name: Card(Clone) (21)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 54490137900582350}
   m_Layer: 5
   m_Name: Card(Clone) (17)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 54335132736665384}
   m_Layer: 5
   m_Name: Card(Clone) (9)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ GameObject:
   - component: {fileID: 114288201615670272}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 114293647802154082}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 114727000178478304}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 114449963791640822}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 114293047174646606}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,7 +191,7 @@ GameObject:
   - component: {fileID: 54686026965818750}
   m_Layer: 5
   m_Name: Card(Clone) (22)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 54528833770718786}
   m_Layer: 5
   m_Name: Card(Clone) (6)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 54445863095407698}
   m_Layer: 5
   m_Name: Card(Clone) (8)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 114473860920451656}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -265,7 +265,7 @@ GameObject:
   - component: {fileID: 114449552711176898}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 54554505038720688}
   m_Layer: 5
   m_Name: Card(Clone) (11)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,7 +305,7 @@ GameObject:
   - component: {fileID: 54885874484428680}
   m_Layer: 5
   m_Name: Card(Clone) (19)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 114406895526700900}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339,7 +339,7 @@ GameObject:
   - component: {fileID: 114701852893924418}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 54518907335122450}
   m_Layer: 5
   m_Name: Card(Clone) (15)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 114947266606596682}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 114668561728387302}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 114885126170457882}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 54628910622730724}
   m_Layer: 5
   m_Name: Card(Clone) (13)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 54056211333734008}
   m_Layer: 5
   m_Name: Card(Clone) (12)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 54233265364015262}
   m_Layer: 5
   m_Name: Card(Clone) (2)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 54235678916960278}
   m_Layer: 5
   m_Name: Card(Clone) (14)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 54426523971605346}
   m_Layer: 5
   m_Name: Card(Clone) (16)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 114553333174205440}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -547,7 +547,7 @@ GameObject:
   - component: {fileID: 54844950397705082}
   m_Layer: 5
   m_Name: Card(Clone)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -567,7 +567,7 @@ GameObject:
   - component: {fileID: 54324042378856540}
   m_Layer: 5
   m_Name: Card(Clone) (7)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 54236069820316286}
   m_Layer: 5
   m_Name: Card(Clone) (3)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 114085237181044772}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 114803838948064854}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 114500299501173968}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 54352595632937058}
   m_Layer: 5
   m_Name: Card(Clone) (5)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 114835748992300426}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -695,7 +695,7 @@ GameObject:
   - component: {fileID: 54866242613982354}
   m_Layer: 5
   m_Name: Card(Clone) (20)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -715,7 +715,7 @@ GameObject:
   - component: {fileID: 54564857019209880}
   m_Layer: 5
   m_Name: Card(Clone) (18)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -732,7 +732,7 @@ GameObject:
   - component: {fileID: 114724436172552514}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -749,7 +749,7 @@ GameObject:
   - component: {fileID: 114175737561708792}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -783,7 +783,7 @@ GameObject:
   - component: {fileID: 114282005057396336}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -816,7 +816,7 @@ GameObject:
   - component: {fileID: 114804803655207594}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -836,7 +836,7 @@ GameObject:
   - component: {fileID: 54133726478615140}
   m_Layer: 5
   m_Name: Card(Clone) (1)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -853,7 +853,7 @@ GameObject:
   - component: {fileID: 114433578208590792}
   m_Layer: 5
   m_Name: Text
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -873,7 +873,7 @@ GameObject:
   - component: {fileID: 54830513087611516}
   m_Layer: 5
   m_Name: Card(Clone) (4)
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3564,7 +3564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 24.29059, y: 36.06425}
+  m_AnchoredPosition: {x: 9.12604, y: 33.759914}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224034852545797402
@@ -3619,7 +3619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -19.240562, y: 39.748528}
+  m_AnchoredPosition: {x: -24.446867, y: 32.02074}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224126489954546338
@@ -3656,7 +3656,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.5438471, y: 49.01328}
+  m_AnchoredPosition: {x: -19.047716, y: 33.29506}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224139425197503768
@@ -3729,7 +3729,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5.3851395, y: 30.902214}
+  m_AnchoredPosition: {x: 8.637596, y: 32.388653}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224293460047822138
@@ -3766,7 +3766,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 21.198116, y: 43.775234}
+  m_AnchoredPosition: {x: -16.066904, y: 29.202122}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224344480585269348
@@ -3803,7 +3803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 10.269871, y: 48.463387}
+  m_AnchoredPosition: {x: 1.4707355, y: 41.622498}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224378939126565534
@@ -3876,7 +3876,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -23.738934, y: 34.974907}
+  m_AnchoredPosition: {x: 0.25026512, y: 38.46936}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224434661998285334
@@ -3895,7 +3895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.752243, y: 19.794823}
+  m_AnchoredPosition: {x: -7.064623, y: 28.45937}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224435948148664284
@@ -3950,7 +3950,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 22.31908, y: 36.487274}
+  m_AnchoredPosition: {x: 29.060213, y: 29.30096}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224541042146562406
@@ -3969,7 +3969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 31.19351, y: 29.713764}
+  m_AnchoredPosition: {x: -18.56555, y: 25.39143}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224554600593383260
@@ -3988,7 +3988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -22.161968, y: 43.134384}
+  m_AnchoredPosition: {x: 29.718796, y: 39.52336}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224556075368281262
@@ -4007,7 +4007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -17.936249, y: 21.483673}
+  m_AnchoredPosition: {x: 19.117682, y: 45.748558}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224588870030452164
@@ -4026,7 +4026,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5.663536, y: 26.18074}
+  m_AnchoredPosition: {x: -10.950302, y: 42.172634}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224598158118941274
@@ -4045,7 +4045,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 26.37063, y: 33.110645}
+  m_AnchoredPosition: {x: -18.830803, y: 21.423248}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224618618113359554
@@ -4118,7 +4118,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -14.650932, y: 28.418066}
+  m_AnchoredPosition: {x: -9.037535, y: 37.76089}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224805321276889126
@@ -4137,7 +4137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.171722, y: 20.608402}
+  m_AnchoredPosition: {x: 17.45911, y: 39.28675}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224819107504069876
@@ -4192,7 +4192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -17.911503, y: 26.044403}
+  m_AnchoredPosition: {x: 3.6142673, y: 24.222626}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224863495082510304
@@ -4265,7 +4265,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 23.956001, y: 29.302109}
+  m_AnchoredPosition: {x: 22.564562, y: 27.209137}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224932557567517090
@@ -4320,7 +4320,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -22.738388, y: 45.39567}
+  m_AnchoredPosition: {x: 9.598973, y: 38.2842}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224950596555566370
@@ -4339,7 +4339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 26.76735, y: 22.570786}
+  m_AnchoredPosition: {x: 34.763832, y: 48.143898}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224954322734892030
@@ -4358,7 +4358,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 29.051846, y: 33.37694}
+  m_AnchoredPosition: {x: 34.27604, y: 46.575596}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224960542930567900
@@ -4377,7 +4377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.362564, y: 27.88277}
+  m_AnchoredPosition: {x: -17.73206, y: 29.514084}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224979559472431104
@@ -4396,6 +4396,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5.584049, y: 48.350765}
+  m_AnchoredPosition: {x: 19.616997, y: 48.30611}
   m_SizeDelta: {x: 17.099998, y: 8.599998}
   m_Pivot: {x: 0.5, y: 0.5}
