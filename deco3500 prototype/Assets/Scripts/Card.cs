@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler
+public class Card : MonoBehaviour, IBeginDragHandler
 {
     public enum Category
     {
@@ -39,13 +40,14 @@ public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler
 	}
 
     // Update is called once per frame
-    void FixedUpdate()
-    { 
-        if (Input.touchCount >= 2)
-        {
-            var touch = Input.GetTouch(0);
+    void Update()
+    {
+        var cardHits = new List<Transform>();
+        var cardTouches = new List<Touch>();
 
-            if(touch.phase == TouchPhase.Moved)
+        foreach (Touch touch in Input.touches)
+        {
+            if (touch.phase == TouchPhase.Moved)
             {
                 Ray ray = Camera.main.ScreenPointToRay(touch.position);
                 Debug.DrawRay(ray.origin, ray.direction);
@@ -56,9 +58,28 @@ public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler
                     Debug.Log(hit.transform.gameObject.name);
                     if (hit.transform.gameObject.tag == "Card")
                     {
-                        hit.transform.Rotate(0f, 0f, 0.1f*(touch.deltaPosition.x + touch.deltaPosition.y));
+                        cardHits.Add(hit.transform);
+                        cardTouches.Add(touch);
                     }
                 }
+            }
+        }
+
+        foreach(var cardHit in cardHits.Distinct())
+        {
+            if(cardHits.Count(x => x == cardHit) == 1)
+            {
+                Debug.Log(1);
+                var touchPos = cardTouches.ElementAt(cardHits.IndexOf(cardHit));
+                var cardPos = Camera.main.ScreenToWorldPoint(touchPos.position);
+                cardPos.z = 0f;
+                cardHit.position = cardPos;
+            }
+            else
+            {
+                Debug.Log(2);
+                var touchPos = cardTouches.ElementAt(cardHits.IndexOf(cardHit));
+                cardHit.Rotate(0f, 0f, 0.1f * (touchPos.deltaPosition.x + touchPos.deltaPosition.y));
             }
         }
     }
@@ -100,12 +121,12 @@ public class Card : MonoBehaviour, IDragHandler, IBeginDragHandler
         Debug.Log("Exiting: " + other.gameObject.name);
     }
 
-    public void OnDrag(PointerEventData eventData)
+    /*public void OnDrag(PointerEventData eventData)
     {
         var mousePos = Input.mousePosition;
         mousePos.z = 10f;
         transform.position = Camera.main.ScreenToWorldPoint(mousePos);
-    }
+    }*/
 
     public void OnBeginDrag(PointerEventData eventData)
     {
