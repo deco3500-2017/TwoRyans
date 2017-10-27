@@ -19,6 +19,19 @@ Users can also create an entirely new package with user defined categories and c
 
 User defined packages can then be loaded by clicking on the load button from the home screen.
 
+# Summary 
+We set out to combat two common dilemmas faced by teachers. The first was the lack of interest and engagement students tend to exhibit in content-heavy core subjects such as English and the second was the difficult practicalities involved in collaborative learning. Getting students to work together and engage in collective learning can require an immense level of supervision and preparation for teachers, and disengagement further complicates the activity.
+
+Our product ZORE aims to solve these problems by providing an innovative, interactive learning tool for teachers that will cement students' knowledge on facts from any number of academic disciplines on a collaborative platform, while ensuring that each student is actively participating. 
+
+We believe that we have demonstrated this effectively through the user testing of our various paper and digital prototypes.
+
+# Further Testing
+
+User testing on students for engagement in other subject matters, on teachers in order to determine UI and hardware constraints, as well as software refinements are all required within the next iterations.
+
+While students responded positively to the user interface, their engagement in other subjects such as Math, History and Science must be gauged with additional features such as the inclusion of multimedia such as pictures, sounds, and greater user interactivity. Furthermore, teachers must be user tested in order to determine the practicality of the table in classroom settings in terms of size and supervision required, as well as the software's ease of use in the administrative contexts of uploading packages and setting tasks. Finally, the software itself must go through several refinement processes to include further features such as the aforementioned as well as UI retextures, card physics, and unique key identification for user-made packages.
+
 # Documentation of Progress
 Progress was documented in [this](https://github.com/deco3500-2017/TwoRyans/wiki/Documentation-of-Progress) wiki page.
 
