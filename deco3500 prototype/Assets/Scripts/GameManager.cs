@@ -40,8 +40,8 @@ public class GameManager : MonoBehaviour {
         var size = GameObject.Find("background").GetComponent<SpriteRenderer>();
         //var cardSize = ((GameObject)Resources.Load("Card")).GetComponent<SpriteRenderer>();
 
-        var positionMax = Vector3.Scale(size.bounds.max, new Vector3(0.5f, 0.5f));
-        var positionMin = Vector3.Scale(size.bounds.min, new Vector3(0.5f, 0.5f));
+        var positionMax = Vector3.Scale(size.bounds.max, new Vector3(0.8f, 0.8f));
+        var positionMin = Vector3.Scale(size.bounds.min, new Vector3(0.8f, 0.8f));
 
         var position = new Vector3(Random.Range(positionMin.x, positionMax.x),
             Random.Range(positionMin.y, positionMax.y));

@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Card : MonoBehaviour, IBeginDragHandler
+public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler
 {
     public enum Category
     {
@@ -40,7 +40,7 @@ public class Card : MonoBehaviour, IBeginDragHandler
 	}
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         var cardHits = new List<Transform>();
         var cardTouches = new List<Touch>();
@@ -82,7 +82,7 @@ public class Card : MonoBehaviour, IBeginDragHandler
                 cardHit.Rotate(0f, 0f, 0.1f * (touchPos.deltaPosition.x + touchPos.deltaPosition.y));
             }
         }
-    }
+    }*/
 
     private void OnTriggerEnter(Collider other)
     {
@@ -121,12 +121,12 @@ public class Card : MonoBehaviour, IBeginDragHandler
         Debug.Log("Exiting: " + other.gameObject.name);
     }
 
-    /*public void OnDrag(PointerEventData eventData)
+    public void OnDrag(PointerEventData eventData)
     {
         var mousePos = Input.mousePosition;
         mousePos.z = 10f;
         transform.position = Camera.main.ScreenToWorldPoint(mousePos);
-    }*/
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
