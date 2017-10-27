@@ -16,9 +16,9 @@ Alternatively, a limitied version of the prototype (without package creation) ca
 Progress was documented in [this](https://github.com/deco3500-2017/TwoRyans/wiki/Documentation-of-Progress) wiki page.
 
 # Who did what?
-**Ryan P:** was responsible for creating and testing the prototype.
-**Ryan dW:** was responsible for organising and conducting user-testing (both with teachers and students).
-**Annie:** was responsible for UX design and creation of promotional material (with the help of Ryan P for the website).
+**Ryan P:** was responsible for creating and testing the prototype.  
+**Ryan dW:** was responsible for organising and conducting user-testing (both with teachers and students).  
+**Annie:** was responsible for UX design and creation of promotional material (with the help of Ryan P for the website).  
 
 # Table of Contents (Proposal)
 - [TwoRyans](#tworyans)
