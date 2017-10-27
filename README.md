@@ -1,4 +1,26 @@
-# Table of Contents
+# Promotional Material
+For the trade show our prototype itself acted as an effective means of promoting our idea, as we were the only group set up on a large multi-touch screen. Despite this, we also created a poster and a small [website](https://s4318132-deco1800.uqcloud.net/index.html) so that interested parties could explore the main functionality of the prototype without having to clone the Unity project and run it on a touch screen.
+
+**Promotional Poster for ZORE:**
+![Promo Poster for ZORE](https://user-images.githubusercontent.com/21353892/32089775-526adabc-bb2f-11e7-8cc6-4c702bc26d46.png)
+
+# Instructions for Building the prototype
+1. Clone this repository.
+2. Open the prototype (found in the deco3500 prototype folder) in Unity v. 2017.1.03f or higher.
+3. Go to Assets/Scenes and open StartUp.
+4. Run the prototype.
+
+Alternatively, a limitied version of the prototype (without package creation) can be accessed [here](https://s4318132-deco1800.uqcloud.net/index.html).
+
+# Documentation of Progress
+Progress was documented in [this](https://github.com/deco3500-2017/TwoRyans/wiki/Documentation-of-Progress) wiki page.
+
+# Who did what?
+**Ryan P:** was responsible for creating and testing the prototype.
+**Ryan dW:** was responsible for organising and conducting user-testing (both with teachers and students).
+**Annie:** was responsible for UX design and creation of promotional material (with the help of Ryan P for the website).
+
+# Table of Contents (Proposal)
 - [TwoRyans](#tworyans)
 - [Introduction](#introduction)
 - [Concept](#concept)
