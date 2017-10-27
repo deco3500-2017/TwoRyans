@@ -12,6 +12,13 @@ For the trade show our prototype itself acted as an effective means of promoting
 
 Alternatively, a limitied version of the prototype (without package creation) can be accessed [here](https://s4318132-deco1800.uqcloud.net/index.html).
 
+# Using the prototype
+Click start and a simple grammar categorization game should load up. Users can move each card into its correct category and then click the middle "ZORE" button to validate their answers (this can be done as many times as necessary).
+
+Users can also create an entirely new package with user defined categories and cards (such as a game that categorizes animals into the correct species/genus etc.)
+
+User defined packages can then be loaded by clicking on the load button from the home screen.
+
 # Documentation of Progress
 Progress was documented in [this](https://github.com/deco3500-2017/TwoRyans/wiki/Documentation-of-Progress) wiki page.
 
